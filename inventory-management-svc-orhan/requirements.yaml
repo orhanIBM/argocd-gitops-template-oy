@@ -1,4 +1,4 @@
 dependencies:
 - name: inventory-management-svc-orhan
   version: 1.0.0-0.0.4
-  repository: https://artifactory-tools.cpat-mooc-team-on-927873-afb9c6047b062b44e3f1b3ecfeba4309-0000.us-south.containers.appdomain.cloud/artifactory/generic-local/
+  repository: https://artifactory-tools.cpat-mooc-team-on-927873-afb9c6047b062b44e3f1b3ecfeba4309-0000.us-south.containers.appdomain.cloud/artifactory/generic-local/cpat-mooc-team-one
