@@ -3,7 +3,7 @@ global:
   tlsSecretName: cpat-mooc-team-on-927873-afb9c6047b062b44e3f1b3ecfeba4309-0000
 
 inventory-management-svc-orhan:
-  replicaCount: 3
+  replicaCount: 2
   
   # For OpenShift set route.enabled=true
   # For Kubernetes set route.enabled=false
