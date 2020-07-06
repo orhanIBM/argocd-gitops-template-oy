@@ -1,0 +1,17 @@
+global:
+  ingressSubdomain: cpat-mooc-team-on-927873-afb9c6047b062b44e3f1b3ecfeba4309-0000.us-south.containers.appdomain.cloud
+  tlsSecretName: cpat-mooc-team-on-927873-afb9c6047b062b44e3f1b3ecfeba4309-0000
+
+inventory-management-svc-oy:
+  replicaCount: 3
+  
+  # For OpenShift set route.enabled=true
+  # For Kubernetes set route.enabled=false
+  route:
+    enabled: true
+  
+  # For OpenShift set ingress.enabled=false
+  # For Kubernetes set ingress.enabled=true
+  ingress:
+    enabled: false
+    tlsSecretName: cpat-mooc-team-on-927873-afb9c6047b062b44e3f1b3ecfeba4309-0000
